@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 a = 2.46 
 t = 2.7  
-n_points = 200  
+n_points = 1000 
 energy_resolution = 0.05 
 kx_vals = np.linspace(-np.pi / a, np.pi / a, n_points)
 ky_vals = np.linspace(-np.pi / a, np.pi / a, n_points)
